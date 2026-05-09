@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.location.gps" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/afbilko_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/afbilko_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Afbilko"
+        android:usesCleartextTraffic="true"> <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyAD_pTfz48iSWMiJlY3WLoYCRMwDUvkZPI" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Anasayfa_yardim" />
+        <activity android:name=".Yardim.Afbilko_nedir" />
+        <activity android:name=".Yardim.Afet_bilinci"/>
+        <activity android:name=".Yardim.Afet_cantasi"/>
+        <activity android:name=".Yardim.Yardimlasma"/>
+        <activity android:name=".Yardim.Gonulluluk"/>
+        <activity android:name=".Yardim.Psikolojik_destek"/>
+        <activity android:name=".Anasayfa_afetler" />
+        <activity android:name=".Afetler.Deprem" />
+        <activity android:name=".Afetler.Heyelan" />
+        <activity android:name=".Afetler.Sel" />
+        <activity android:name=".Afetler.Yangin" />
+        <activity android:name=".Anasayfa_chatbot"/>
+        <activity android:name=".Anasayfa_gonulluluk" />
+        <activity android:name=".Anasayfa_profil" />
+        <activity android:name=".Anasayfa_giris_kayit" />
+        <activity android:name=".Anasayfa_talep_olustur" />
+        <activity android:name=".Anasayfa_neredeyim" />
+        <activity android:name=".Anasayfa_toplanma" />
+        <activity android:name=".Profil_bilgi_guncelle" />
+        <activity android:name=".Anasayfa_hakkimizda" />
+        <activity android:name=".Admin" />
+
+    </application>
+
+</manifest>
