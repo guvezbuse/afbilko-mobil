@@ -29,7 +29,10 @@ Afbilko, afet anlarında kullanıcılar arasında hızlı bilgi paylaşımı, ko
 
 1- APK İndir: [📲 Afbilko APK dosyasını indirmek için buraya tıkla](https://github.com/guvezbuse/afbilko-mobil/raw/main/APK/afbilko.apk)
 
-2- Uygulamayı indirdikten sonra saniyeler içinde kendi hesabınızı oluşturabilir ve sistemi test etmeye başlayabilirsiniz.
+2- Kurulum Notu: Uygulamayı kurarken telefonunuz "Bilinmeyen kaynaklardan uygulama yükle" uyarısı verebilir. Kuruluma devam edebilmek için bu izni vermeniz gerekmektedir.
+Ayarlar > Güvenlik > Bilinmeyen Kaynaklar kısmından veya yükleme sırasında çıkan uyarı ekranından "Bu kaynağa izin ver" diyerek devam edebilirsiniz.
+
+3- Uygulamayı indirdikten sonra saniyeler içinde kendi hesabınızı oluşturabilir ve konumunuzun açık olduğundan emin olarak sistemi test etmeye başlayabilirsiniz.
 
 
 📸 Ekran Görüntüleri
