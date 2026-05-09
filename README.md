@@ -26,7 +26,7 @@ Afbilko, afet anlarında kullanıcılar arasında hızlı bilgi paylaşımı, ko
 - Güvenlik Notu: Projenin güvenliği için hassas yapılandırma dosyaları (google-services.json) depodan hariç tutulmuştur. Uygulama, arka planda tarafımca yönetilen veritabanı ile çalışmaya devam etmektedir. Uygulama gerçek zamanlı veri akışı için Firebase veritabanını kullanmaktadır.
 
 📲 Uygulamayı Deneyimleyin (Demo)
-1- APK İndir: [📲 Afbilko APK dosyasını indirmek için buraya tıkla](./APK/afbilko.apk)
+1- APK İndir: [📲 Afbilko APK dosyasını indirmek için buraya tıkla](APK/afbilko.apk)
 2- Uygulamayı indirdikten sonra saniyeler içinde kendi hesabınızı oluşturabilir ve sistemi test etmeye başlayabilirsiniz.
 
 📸 Ekran Görüntüleri
