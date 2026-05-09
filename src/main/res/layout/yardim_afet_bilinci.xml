@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Başlık -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afet Bilinci Nedir?"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#8e1616"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Açıklama -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afet bilinci, bireylerin ve toplumun doğal ya da insan kaynaklı afetlere karşı hazırlıklı olması, riskleri tanıması ve doğru davranış modellerini benimsemesi anlamına gelir. Bu bilinç, hayat kurtarır ve kayıpları en aza indirir."
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Görsel -->
+        <ImageView
+            android:id="@+id/icerik_gorsel"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/bilinc"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Afet Nedir -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afet Nedir?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#8e1616"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afet, insanların yaşamlarını, sağlığını, mal ve hizmetlerini tehdit eden; büyük fiziksel, ekonomik ve sosyal kayıplara yol açan olaylardır. Deprem, sel, yangın, heyelan, salgın hastalıklar gibi çeşitli türleri vardır."
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Neden Afet Bilinci Önemlidir -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neden Afet Bilinci Önemlidir?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#8e1616"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Afet öncesi hazırlık yapmayı sağlar.\n• Afet sırasında doğru ve hızlı tepki verilmesini sağlar.\n• Afet sonrası toparlanmayı hızlandırır.\n• Toplumun dayanıklılığını artırır."
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Afet Bilincine Sahip Olmak İçin Neler Yapılmalı -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afet Bilincine Sahip Olmak İçin Neler Yapılmalı?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#8e1616"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Afet çantası hazırlamak\n• Toplanma alanlarını öğrenmek\n• Yangın, deprem gibi afetlere yönelik tatbikatlara katılmak\n• Gönüllü olmak ve yardım faaliyetlerinde yer almak\n• Aile afet planı oluşturmak"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Afet Bilincini Yaygınlaştırmak İçin Ne Yapabiliriz -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afet Bilincini Yaygınlaştırmak İçin Ne Yapabiliriz?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#8e1616"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afetlerle ilgili eğitimlere katılarak ve çevremize bu konuda bilgi aktararak toplumun bilinç düzeyini artırabiliriz. Okullarda, iş yerlerinde ve mahallelerde bilinçlendirme çalışmaları yapılmalıdır."
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Vurgu -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afet bilinci bir lüks değil, yaşamımızı güvence altına alan bir sorumluluktur!"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="24dp" />
+
+    </LinearLayout>
+</ScrollView>

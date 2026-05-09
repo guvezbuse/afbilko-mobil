@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="8dp"
+        android:background="@android:color/white"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Başlık -->
+
+            <!-- Açıklama -->
+
+            <!-- Görsel -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="AFBİLKO Nedir?"
+                android:textColor="#FF8E1616"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="149dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="sans-serif-medium"
+                android:lineSpacingExtra="4sp"
+                android:text="AFBİLKO (Afet Bilgilendirme ve Koordinasyon Sistemi), afet anlarında bilgi akışını sağlamak, yardımları organize etmek ve gönüllüleri yönlendirmek amacıyla oluşturulmuş dijital bir platformdur."
+                android:textAlignment="viewStart"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:typeface="normal"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/afbilko_logo"
+                android:contentDescription="AFBİLKO Sistemi"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerInside" />
+
+            <!-- Hedefimiz Nedir? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hedefimiz Nedir?"
+                android:textSize="20sp"
+                android:textColor="#FF8E1616"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AFBİLKO’nun temel amacı; afetler sırasında zaman kaybını önlemek, doğru bilginin doğru kişilere ulaşmasını sağlamak ve bireyleri organize etmek için dijital destek sunmaktır."
+                android:textSize="16sp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Temel Özellikler -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AFBİLKO’nun Temel Özellikleri"
+                android:textSize="20sp"
+                android:textColor="#FF8E1616"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Afet bölgesinden anlık yardım taleplerini toplar.\n• Yardım etmek isteyen bireyleri doğrudan ihtiyaç sahipleriyle eşleştirir.\n• Gönüllüleri etkin ve güvenli bir şekilde yönlendirir.\n• Toplanma alanlarını harita üzerinden gösterir.\n• Afet eğitimi ve bilgilendirme içerikleri sunar."
+                android:textSize="16sp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Kimler Kullanabilir? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kimler Kullanabilir?"
+                android:textSize="20sp"
+                android:textColor="#FF8E1616"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Afet bölgesindeki vatandaşlar\n• Gönüllüler ve sivil toplum kuruluşları\n• Yardım ekipleri ve yerel yönetimler\n• Afet konusunda bilgi edinmek isteyen herkes"
+                android:textSize="16sp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Nasıl Katkı Sağlayabilirim -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nasıl Katkı Sağlayabilirim?"
+                android:textSize="20sp"
+                android:textColor="#FF8E1616"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sisteme gönüllü olarak kayıt olabilir, yardım taleplerine yanıt verebilir veya sadece bilgilenmek için platformu kullanabilirsiniz. AFBİLKO sayesinde her birey, afet anında bir fark yaratabilir."
+                android:textSize="16sp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AFBİLKO ile Her Zaman Hazır, Her Zaman Birlikte!"
+                android:textSize="16sp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColor="#333333"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

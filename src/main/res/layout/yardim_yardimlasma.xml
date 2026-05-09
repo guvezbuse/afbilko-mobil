@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Başlık -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yardımlaşmanın Gücü"
+            android:textColor="#8e1616"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Açıklama -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afet zamanlarında yardımlaşma, bir toplumun en güçlü reflekslerinden biridir. Birlik, dayanışma ve paylaşım duygusu, sadece ihtiyaç sahiplerine destek olmakla kalmaz, aynı zamanda moral ve umut da sağlar."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Görsel -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/yardimlasma"
+            android:scaleType="centerCrop"
+            android:contentDescription="Yardımlaşma Görseli"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Neden Yardımlaşmalıyız -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neden Yardımlaşmalıyız?"
+            android:textColor="#8e1616"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Afet bölgesinde temel ihtiyaçlar hızlıca karşılanabilir.\n• Toplumun psikolojik dayanıklılığı artar.\n• Kaynaklar etkili ve adil şekilde dağılır.\n• İnsanlar yalnız olmadıklarını hisseder."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- AFBİLKO'da Yardımlaşma -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AFBİLKO'da Yardımlaşma Nasıl Olur?"
+            android:textColor="#8e1616"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AFBİLKO, yardımsever bireyler ile ihtiyacı olanları eşleştirerek buluşturur. Sistem üzerinden:"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Bir ihtiyaç ilanı oluşturabilir ya da mevcut ilanlara yanıt verebilirsin.\n• Gönüllü olarak yardım alanlarına destek sunabilirsin.\n• Fiziksel, maddi veya psikolojik destek sunmak için başvuruda bulunabilirsin."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Yardım Etmenin Farklı Yolları -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yardım Etmenin Farklı Yolları"
+            android:textColor="#8e1616"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Gıda, su, kıyafet gibi temel ihtiyaçlar sağlamak\n• Gönüllü ulaşım veya barınma desteği sunmak\n• Bilgi paylaşımı ve yönlendirme yapmak\n• Psikolojik destek ve moral kaynağı olmak"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Kapanış mesajı -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Her küçük destek, büyük fark yaratır. Afet sonrası süreçte el ele vererek yaraları birlikte sarabiliriz. AFBİLKO ile yardımlaşmayı organize ve etkili hale getiriyoruz."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEN DE EL UZAT, BİRLİKTE ÇOK DAHA GÜÇLÜYÜZ!"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#8e1616"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

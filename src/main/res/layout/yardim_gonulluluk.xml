@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/baslik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gönüllülük: Kalpten Gelen Destek"
+            android:textColor="#8e1616"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gönüllülük, toplumun ihtiyaç duyduğu anlarda, karşılık beklemeden yapılan yardımların temelidir. Özellikle afet zamanlarında, gönüllü bireylerin desteği hayat kurtarıcı olabilir. AFBİLKO, gönüllülerin gücünü organize eder ve doğru yerlere yönlendirir."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/gonulluluk"
+            android:scaleType="centerCrop"
+            android:contentDescription="Gönüllülük Görseli"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gönüllü Olmanın Faydaları"
+            android:textColor="#8e1616"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Topluma katkı sağlamak ve dayanışmayı artırmak\n• Yeni beceriler kazanmak ve deneyim elde etmek\n• İnsanlarla güçlü bağlar kurmak\n• Empati, sorumluluk ve liderlik özelliklerini geliştirmek"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AFBİLKO’da Gönüllülük Süreci"
+            android:textColor="#8e1616"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AFBİLKO sistemine kayıt olduktan sonra gönüllü profilinizi oluşturabilir, hangi alanlarda görev almak istediğinizi belirtebilirsiniz:\n\n• Yiyecek ve yardım malzemesi dağıtımı\n• Enkaz destek ve yönlendirme\n• Çocuklarla ve yaşlılarla ilgilenme\n• Psikolojik destek ya da bilgi paylaşımı"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kimler Gönüllü Olabilir?"
+            android:textColor="#8e1616"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Herkes gönüllü olabilir! Gönüllülük için yaş, meslek ya da deneyim fark etmez. Önemli olan yardım etme isteği ve duyarlılıktır."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gönüllü olmak, sadece bir zaman ayırmak değil; bir hayatı değiştirmektir! AFBİLKO ile daha güvenli, dayanışma içinde bir toplum için el ele!"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ŞİMDİ GÖNÜLLÜ OL, BİR UMUT DA SEN OL!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#8e1616"
+            android:gravity="center"/>
+    </LinearLayout>
+</ScrollView>

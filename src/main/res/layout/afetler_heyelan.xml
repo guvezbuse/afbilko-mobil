@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Başlık -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heyelan Afeti Yardım Bilgilendirmesi"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:background="#8E1616"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:gravity="center" />
+
+        <!-- Görsel -->
+        <ImageView
+            android:id="@+id/imgHeyelan"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/heyelan_gorseli"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Heyelan Görseli" />
+
+        <!-- İçerik -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heyelan, yer yüzeyindeki toprağın, kayaların veya diğer malzemelerin doğal nedenlerle veya insan etkisiyle hareket etmesi sonucu meydana gelen toprak kaymalarıdır. Heyelanlar genellikle eğimli arazilerde, aşırı yağış, zemin yapısının zayıf olması ya da insan faaliyetleri nedeniyle oluşur."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📌 Heyelanlar, özellikle dağlık ve eğimli bölgelerde, yağışların yoğun olduğu dönemlerde meydana gelir ve büyük can ve mal kayıplarına neden olabilir."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <!-- Heyelan Öncesinde -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heyelan Öncesinde Ne Yapmalıyım?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#8E1616"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Acil durum planı hazırlayın\n• Ev ve çevreyi güçlendirin\n• Toprak kayması bölgelerini belirleyin\n• Toplanma alanlarını önceden seçin"
+            android:textSize="16sp"
+            android:layout_marginTop="6dp" />
+
+        <!-- Heyelan Anında -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heyelan Anında Ne Yapmalıyım?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#8E1616"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• İçerideyseniz: Hemen dışarı çıkın ve yüksek alanlara yönelin\n• Açık alandaysanız: Kayma alanlarından uzak durun\n• Yoldaysanız: Araçtan inip güvenli alana gidin\n• Yağışlı havalarda uyarıları dikkate alın"
+            android:textSize="16sp"
+            android:layout_marginTop="6dp" />
+
+        <!-- Heyelan Sonrasında -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heyelan Sonrasında Ne Yapmalıyım?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#8E1616"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Panik yapmayın, güvenli alana geçin\n• Yaralıları kontrol edin\n• Yetkililere haber verin\n• Heyelan bölgesine girmeyin"
+            android:textSize="16sp"
+            android:layout_marginTop="6dp" />
+
+        <!-- Afetzedeler İçin Öneriler -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afetzedeler İçin Öneriler"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#8E1616"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Yaralıysanız yardım isteyin\n• Psikolojik destek alın\n• Yaralıları taşımak için yardım çağırın\n• En yakın toplanma alanına gidin"
+            android:textSize="16sp"
+            android:layout_marginTop="6dp" />
+
+        <!-- Yardım Almak İçin -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yardım Almak İçin"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#8E1616"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Yardım Talep Formunu doldurun\n• Toplanma alanlarını öğrenin\n• Acil yardım hatlarını arayın"
+            android:textSize="16sp"
+            android:layout_marginTop="6dp" />
+
+    </LinearLayout>
+</ScrollView>

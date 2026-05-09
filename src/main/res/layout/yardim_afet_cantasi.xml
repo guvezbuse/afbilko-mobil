@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="8dp"
+        android:background="@android:color/white"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Başlık -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Afet Çantası Nedir? Neden Önemlidir?"
+                android:textColor="#8e1616"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!-- Açıklama -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="4sp"
+                android:text="Afet anlarında veya hemen sonrasında temel ihtiyaçlara ulaşmak zor olabilir. Bu nedenle önceden hazırlanmış bir afet çantası hayati öneme sahiptir. Afet çantası; sizin ve sevdiklerinizin 72 saate kadar hayatta kalmasını kolaylaştırır."
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"/>
+
+            <!-- Görsel -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/afet_cantasi"
+                android:contentDescription="Afet Çantası Görseli"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerInside" />
+
+            <!-- Temel Malzemeler -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Afet Çantasında Bulunması Gereken Temel Malzemeler"
+                android:textSize="20sp"
+                android:textColor="#8e1616"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Su (kişi başı günlük en az 2 litre, 3 gün yetecek şekilde)\n• Konserve, kuru gıda gibi bozulmayan yiyecekler\n• İlk yardım çantası ve reçeteli ilaçlar\n• Fener ve yedek piller\n• Powerbank / taşınabilir şarj cihazı\n• Radyo (tercihen pilli veya dinamo)\n• Hijyen malzemeleri (ıslak mendil, sabun, maske, tuvalet kâğıdı)\n• Kibrit, çakmak, düdük\n• Yedek kıyafet, çorap, iç çamaşırı\n• Nakit para, önemli evrak fotokopileri (kimlik, tapu, sigorta vb.)\n• Not defteri ve kalem"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"/>
+
+            <!-- Dikkat Edilmesi Gerekenler -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Afet Çantası Hazırlarken Dikkat Edilmesi Gerekenler"
+                android:textSize="20sp"
+                android:textColor="#8e1616"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Çanta kolay taşınabilir olmalı (sırt çantası ideal)\n• Çocuk, yaşlı ve evcil hayvanlara özel malzemeler eklenmeli\n• Malzemelerin son kullanma tarihleri düzenli kontrol edilmeli\n• Evde, arabada ve iş yerinde ayrı afet çantaları bulundurulmalı"
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"/>
+
+            <!-- Hazırlıklı Ol -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hazırlıklı Ol, Güvende Kal"
+                android:textSize="20sp"
+                android:textColor="#8e1616"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Afet çantası küçük bir hazırlık gibi görünse de, kriz anlarında hayat kurtarır. Ailenle birlikte hazırlayıp kolay ulaşılabilir bir yerde saklamayı unutma."
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Arka plan -->
+        <ImageView
+            android:id="@+id/arkaplan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:alpha="0.2"
+            android:src="@drawable/deprem_gorseli3" />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8E1616"
+            android:text="Deprem Afeti Yardım Bilgilendirmesi"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:padding="15dp"
+            android:textStyle="bold" />
+
+        <!-- Ana içerik -->
+        <LinearLayout
+            android:id="@+id/mainContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:layout_marginTop="-115dp"
+            android:background="#E6FFFFFF"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Deprem Nedir -->
+            <TextView
+                android:id="@+id/baslik1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Deprem Nedir?"
+                android:textColor="#8E1616"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/depremGorsel"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="Deprem Görseli"
+                android:scaleType="centerCrop"
+                android:src="@drawable/deprem_gorseli3" />
+
+            <TextView
+                android:id="@+id/depremAciklama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Deprem, yer kabuğundaki fay hatlarında meydana gelen ani kırılmalar sonucu oluşan titreşimlerdir. Yüzeyde sarsıntı olarak hissedilir ve can/mal kaybına neden olabilir.\n\n📌 Türkiye, fay hatları üzerinde bulunduğu için deprem riski yüksek bir ülkedir."
+                android:textSize="18sp" />
+
+            <!-- Deprem Öncesinde Ne Yapmalıyım -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Deprem Öncesinde Ne Yapmalıyım?"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="• Acil durum çantası hazırlayın (su, ilk yardım, el feneri, yedek kıyafet, düdük vs.).\n• Evinizdeki ağır eşyaları duvara sabitleyin.\n• Toplanma alanınızı önceden öğrenin ve ailenizle buluşma planı yapın.\n• Gaz, su ve elektriğin nasıl kapatılacağını öğrenin."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:text="📌 Acil bir durumda hızlı ve doğru kararlar almak için önceden hazırlıklı olun."
+                android:textSize="16sp" />
+
+            <!-- Deprem Anında Ne Yapmalıyım -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Deprem Anında Ne Yapmalıyım?"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="• 🏠 İçerideyseniz: Çök – Kapan – Tutun yöntemini uygulayın.
+                 Sabit ve sağlam bir eşyanın yanına çökerek korunmaya çalışın.\n•
+                 🚗 Araçtaysanız: Aracı durdurun, içeride bekleyin. Köprü, tünel altından uzak durun.\n•
+                  🌳 Açık alandaysanız: Ağaç, bina, elektrik direği gibi nesnelerden uzak durun."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#FFE9E9"
+                android:padding="10dp"
+                android:text="📵 Asansör kullanmayın, camlardan uzak durun."
+                android:textSize="16sp" />
+
+            <!-- Deprem Sonrasında -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Deprem Sonrasında Ne Yapmalıyım?"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1. Sakin olun ve panik yapmayın.\n2. Gaz sızıntısı riskine karşı elektrik düğmelerine basmayın, kibrit çakmayın.\n3. Binanızda hasar varsa derhal terk edin, toplanma alanına gidin.\n4. Radyo ve yetkililerin duyurularını takip edin."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:text="📍 En yakın toplanma alanı bilgisine Toplanma Alanları sayfasından ulaşabilirsiniz."
+                android:textSize="16sp" />
+
+            <!-- Afetzedeler İçin Öneriler -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Afetzedeler İçin Öneriler"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="• Yaralı iseniz yardım isteyin veya düdük, ses gibi sinyallerle konumunuzu belli edin.\n• Yetkililere doğru bilgi vererek yardım sürecine destek olun.\n• Psikolojik destek alın, yalnız olmadığınızı unutmayın."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:text="🧠 Depremin ardından travma normaldir. Gerekirse bir uzmandan psikolojik destek alın."
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

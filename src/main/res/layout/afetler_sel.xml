@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewSel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Arka plan (bulanık, alpha düşük) -->
+        <ImageView
+            android:id="@+id/arkaplanSel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:alpha="0.2"
+            android:src="@drawable/sel_gorseli"
+            android:contentDescription="arka plan" />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/headerSel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8E1616"
+            android:text="Sel Afeti Yardım Bilgilendirmesi"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:padding="15dp"
+            android:textStyle="bold" />
+
+        <!-- Ana içerik -->
+        <LinearLayout
+            android:id="@+id/mainContentSel"
+            android:layout_below="@id/headerSel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="#E6FFFFFF">
+
+            <!-- Sel Afeti Nedir -->
+            <TextView
+                android:id="@+id/titleSelWhat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sel Afeti Nedir?"
+                android:textColor="#8E1616"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:id="@+id/selGorsel"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sel_gorseli"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="Sel Görseli" />
+
+            <TextView
+                android:id="@+id/selDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sel, ani ve aşırı yağışlar, nehir taşkınları veya deniz suyu yükselmesi sonucu oluşan, kara alanlarının suyla kaplanmasıdır. Sel, çevreyi tahrip edebilir, evleri, altyapıyı ve tarım alanlarını ciddi şekilde etkileyebilir. Ayrıca, insan hayatını tehdit eden büyük bir felakettir.\n\n📌 Türkiye, özellikle büyük nehir havzalarına sahip ve yüksek yağış alan bölgeleriyle, sel riski altında bir ülkedir."
+                android:textSize="18sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Sel Öncesinde -->
+            <TextView
+                android:id="@+id/titleSelBefore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sel Öncesinde Ne Yapmalıyım?"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/selBeforeDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sel felaketinden korunmak için alınması gereken önlemler, olası bir sel sırasında zararları azaltabilir:"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:id="@+id/selBeforeBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/selBeforeBoxTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alınması Gereken Önlemler:"
+                    android:textSize="18sp"
+                    android:textColor="#8E1616"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:id="@+id/selBeforeList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Sel uyarılarını takip edin: Meteoroloji uyarılarını ve AFAD açıklamalarını düzenli olarak kontrol edin.\n• Sel bölgelerinde bulunuyorsanız: Evdeki ağır eşyaları yüksek yerlerde tutun, pencereleri kapalı tutun.\n• Acil durum çantası hazırlayın: Su, yiyecek, ilk yardım malzemeleri, telefon şarj cihazı gibi temel ihtiyaçlarınızı içeren çanta hazırlayın.\n• Evdeki alt yapıyı kontrol edin: Kanalizasyon sistemlerinin tıkanmaması ve suyun rahatça akabilmesi için evdeki drenajı kontrol edin.\n• Toplanma alanınızı öğrenin: Sel anında toplanma alanlarına nasıl ulaşabileceğinizi ve ailenizle nasıl iletişim kuracağınızı önceden planlayın."
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!-- Sel Anında -->
+            <TextView
+                android:id="@+id/titleSelDuring"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sel Anında Ne Yapmalıyım?"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/selDuringDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sel sırasında doğru davranış sergilemek hayati önem taşır:"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:id="@+id/selDuringBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/selDuringBoxTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sel Anında Yapmanız Gerekenler:"
+                    android:textSize="18sp"
+                    android:textColor="#8E1616"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:id="@+id/selDuringList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• İçerideyseniz: Hızla yüksek bir noktaya çıkın, su baskınını önlemek için merdivenlere, yerden yüksek eşyalara yönelin.\n• Açık alandaysanız: Suyun hızla yükseldiğini fark ederseniz, yükselen suyun yönünden uzak durun ve yüksek alanlara yönelin.\n• Aracınızdayken: Eğer yolda su baskını başlarsa, aracınızı güvenli bir alana çekin ve suyun yükselmesini bekleyin.\n• Asansör kullanmayın: Elektrik kesintisi ya da kısa devre risklerine karşı asansör kullanmak çok tehlikelidir."
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!-- Sel Sonrasında -->
+            <TextView
+                android:id="@+id/titleSelAfter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sel Sonrasında Ne Yapmalıyım?"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/selAfterDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sel felaketi sonrası da doğru hareket etmek gereklidir. Hayati tehlikeyi atlatmış olsanız bile, yapılması gereken önemli adımlar vardır:"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:id="@+id/selAfterBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/selAfterBoxTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sel Sonrası Yapmanız Gerekenler:"
+                    android:textSize="18sp"
+                    android:textColor="#8E1616"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:id="@+id/selAfterList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Panik yapmayın: Sakin kalın ve yardım talep etmek için doğru kişilere ulaşmaya çalışın.\n• Elektriği kontrol edin: Su baskınından sonra elektrik akımına kapılmamak için elektriği kapatın.\n• Evdeki hasarı kontrol edin: Eviniz veya işyeriniz su altında kaldıysa, güvenliği sağladıktan sonra yapısal zararı inceleyin.\n• Toplanma alanına gidin: Eğer eviniz kullanılmaz hale geldiyse, en yakın toplanma alanına geçin.\n• Radyo ve yetkililerin uyarılarını takip edin: Sel sonrası kritik bilgiler için yetkililerin açıklamalarını takip edin."
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!-- Afetzedeler İçin Öneriler -->
+            <TextView
+                android:id="@+id/titleSelVictimTips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Afetzedeler İçin Öneriler"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:id="@+id/selVictimBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/selVictimTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yaralı iseniz:"
+                    android:textSize="18sp"
+                    android:textColor="#8E1616"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:id="@+id/selVictimList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Yaralıysanız: Yardım talep edin veya sinyal vererek konumunuzu belirtin.\n• Yaralıları taşıyın: İhtiyaç durumunda, taşınabilir yaralıları güvenli bir yere götürün.\n• Psikolojik destek alın: Sel sonrası travmalar, normaldir. Psikolojik destek alın ve güvende olduğunuzu unutmayın."
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!-- Yardım Almak İçin (EKLENDİ) -->
+            <LinearLayout
+                android:id="@+id/selHelpBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/selHelpTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yardım Almak İçin:"
+                    android:textSize="18sp"
+                    android:textColor="#8E1616"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:id="@+id/selHelpItem1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Yardım Talep Formu sayfasını doldurun."
+                    android:textSize="16sp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/selHelpItem2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Toplanma Alanları sayfasından en yakın toplanma alanını öğrenin."
+                    android:textSize="16sp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/selHelpItem3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Acil durumlarda yardım hatlarına başvurun ve en yakın yerel yetkililere ulaşın."
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

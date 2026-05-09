@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Psikolojik Destek: Afet Sonrası Ruh Sağlığı"
+            android:textColor="#8e1616"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afetler yalnızca fiziksel değil, duygusal ve psikolojik anlamda da derin izler bırakabilir. Travmalar, kaygı, korku ve belirsizlik hissi bu süreçte oldukça yaygındır. Bu nedenle psikolojik ilk yardım ve destek mekanizmaları büyük önem taşır."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/psikolojik_destek"
+            android:scaleType="centerCrop"
+            android:contentDescription="Psikolojik Destek Görseli"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Afet Sonrası Ortaya Çıkabilecek Duygular"
+            android:textColor="#8e1616"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Şok, inanamama, hissizlik\n• Aşırı korku ve tedirginlik\n• Uyku sorunları ve kabuslar\n• Öfke, suçluluk ve çaresizlik hissi"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Psikolojik İlk Yardım Nedir?"
+            android:textColor="#8e1616"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Psikolojik ilk yardım; afetzedelerin güvenliğini sağlamak, onları dinlemek, ihtiyaçlarını tespit etmek ve uygun destek kanallarına yönlendirmek amacıyla yapılan, ilk ve temel müdahaledir."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AFBİLKO’da Psikolojik Destek Nasıl Sağlanır?"
+            android:textColor="#8e1616"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Uzman psikolog ve gönüllü danışmanlar ile eşleştirme\n• Çocuklar, yaşlılar ve özel ihtiyaç sahipleri için özel programlar\n• Telefon, mesaj veya yüz yüze destek imkanları\n• Destek almak isteyenler için gizliliğe önem verilen yapı"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unutmayın!"
+            android:textColor="#8e1616"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yalnız değilsiniz. Hissettikleriniz normaldir ve zamanla iyileşme mümkündür. AFBİLKO olarak yanınızdayız."
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Destek almak veya gönüllü psikolojik destek sunmak için lütfen ilgili formları doldurunuz."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewYangin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Arka plan -->
+        <ImageView
+            android:id="@+id/arkaplanYangin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:alpha="0.2"
+            android:src="@drawable/yangin_gorseli"
+            android:contentDescription="arka plan" />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/headerYangin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8E1616"
+            android:text="Yangın Afeti Yardım Bilgilendirmesi"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:padding="15dp"
+            android:textStyle="bold" />
+
+        <!-- Ana içerik -->
+        <LinearLayout
+            android:id="@+id/mainContentYangin"
+            android:layout_below="@id/headerYangin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="#E6FFFFFF">
+
+            <!-- Yangın Afeti Nedir -->
+            <TextView
+                android:id="@+id/baslikYangin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yangın Afeti Nedir?"
+                android:textColor="#8E1616"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:id="@+id/yanginGorsel"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/yangin_gorseli"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="Yangın Görseli" />
+
+            <TextView
+                android:id="@+id/yanginAciklama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yangın, kontrolsüz bir şekilde yayılan ateşin
+                 çevresindeki tüm canlılara ve eşyalarına zarar vermesi durumudur.
+                  Evlerde, ormanlarda, işyerlerinde veya doğal alanlarda yangınlar
+                   meydana gelebilir ve büyük zararlara yol açabilir.\n\n📌 Yangınlar,
+                    genellikle elektriksel arızalar, yıldırım düşmesi, insanların
+                    dikkatsizliği ve doğal afetler sonucu çıkabilir."
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Yangın Öncesinde -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yangın Öncesinde Ne Yapmalıyım?"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yangın öncesi yapılacak hazırlıklar, can güvenliğini
+                sağlamak ve yangının etkilerini azaltmak için çok önemlidir:"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alınması Gereken Önlemler:"
+                    android:textSize="18sp"
+                    android:textColor="#8E1616"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Acil durum planı hazırlayın: Yangın anında
+                    yapılacakları belirleyin, bir yangın tatbikatı yapın.\n•
+                    Yangın söndürme ekipmanları edinin: Evde yangın söndürücü bulundurun,
+                     yangın merdiveni ve çıkış noktalarınızı kontrol edin.\n•
+                      Elektrik sistemlerini kontrol edin: Elektrik sistemini düzenli
+                       olarak kontrol ettirerek, kısa devre riskini en aza indirin.\n•
+                        Aile bireylerinizi bilgilendirin: Yangın durumunda her bireyin
+                         ne yapması gerektiğini öğrenmesini sağlayın.\n• Yangın tahliye
+                          yollarını belirleyin: Evde yangın tahliye yollarını ve çıkış
+                           noktalarını önceden belirleyin."
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <!-- Yangın Anında -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yangın Anında Ne Yapmalıyım?"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yangın anında panik yapmadan ve doğru adımları
+                 izleyerek, can güvenliğini sağlamak çok önemlidir:"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yangın Anında Yapmanız Gerekenler:"
+                    android:textSize="18sp"
+                    android:textColor="#8E1616"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• İçerideyseniz: Yangın var ise hemen evden dışarı
+                    çıkın, kapıları kapalı bırakın, yangından uzaklaşın.\n• Yangın
+                     merdivenini kullanın: Yangın durumunda asansör kullanmayın. En yakın
+                     yangın merdivenini kullanarak binayı terk edin.\n• Yangını söndürmeye
+                      çalışmayın: Yangın çok büyükse, itfaiyeye haber verin ve binayı terk
+                      edin.\n• Odadaki dumanı engellemek için: Kapı altını bezle kapatın
+                      ve yavaşça odadan çıkın."
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <!-- Yangın Sonrasında -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yangın Sonrasında Ne Yapmalıyım?"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yangın sonrasında, hem psikolojik hem de fiziksel
+                 olarak sağlığınızı korumak önemlidir:"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yangın Sonrası Yapmanız Gerekenler:"
+                    android:textSize="18sp"
+                    android:textColor="#8E1616"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Panik yapmayın: Sakin kalın ve yangın sonrası
+                     yapılması gerekenleri doğru şekilde yerine getirin.\n• Yangın
+                     alanından uzaklaşın: Yangın sonrasında hala duman ya da tehlike
+                      olabilir. Güvenli bir alana gidin.\n• Yaralıları kontrol edin:
+                       Eğer birisi yaralanmışsa, ilk yardım uygulayın ve hastaneye sevk
+                       edin.\n• Yetkililere haber verin: Yangın sonrası durum hakkında
+                        yerel yetkililere bilgi verin."
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <!-- Afetzedeler İçin Öneriler -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Afetzedeler İçin Öneriler"
+                android:textColor="#8E1616"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yangın Sonrası Afetzedeler İçin Öneriler:"
+                    android:textSize="18sp"
+                    android:textColor="#8E1616"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Yaralıysanız: Yardım talep edin veya acil servise
+                     başvurun.\n• Psikolojik destek alın: Yangın sonrasında stres,
+                      korku ve travma normaldir. Bir psikolog veya danışman ile
+                       görüşebilirsiniz.\n• Yaralıları taşımak için yardım isteyin:
+                        En yakın acil yardım hattına ulaşın.\n• En yakın toplanma alanına
+                        gidin: Yangın sonrasında, güvenli alana geçmek için en yakın
+                        toplanma alanına gidin."
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#E6FFFFFF"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yardım Almak İçin:"
+                    android:textSize="18sp"
+                    android:textColor="#8E1616"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Yardım Talep Formu sayfasını doldurun.\n• Toplanma
+                     Alanları sayfasından en yakın toplanma alanını öğrenin.\n•
+                     Acil durumlarda yardım hatlarına başvurun ve en yakın yerel
+                      yetkililere ulaşın."
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
