@@ -31,6 +31,7 @@ Afbilko, afet anlarında kullanıcılar arasında hızlı bilgi paylaşımı, ko
 
 2- Uygulamayı indirdikten sonra saniyeler içinde kendi hesabınızı oluşturabilir ve sistemi test etmeye başlayabilirsiniz.
 
+
 📸 Ekran Görüntüleri
 <table align="center">
   <tr>
