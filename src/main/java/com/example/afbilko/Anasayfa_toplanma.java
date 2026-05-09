@@ -1,4 +1,4 @@
-package com.example.afbilko;
+""""""""""""""""""""""""""""""""""""package com.example.afbilko;
 
 import android.Manifest;
 import android.content.Intent;
@@ -139,7 +139,7 @@ public class Anasayfa_toplanma extends AppCompatActivity implements OnMapReadyCa
     private String getDirectionsUrl(LatLng origin, LatLng dest) {
         String str_origin = "origin=" + origin.latitude + "," + origin.longitude;
         String str_dest = "destination=" + dest.latitude + "," + dest.longitude;
-        String key = "key=AIzaSyAD_pTfz48iSWMiJlY3WLoYCRMwDUvkZPI";
+        String key = "key=YOUR_API_KEY";
         return "https://maps.googleapis.com/maps/api/directions/json?" + str_origin + "&" + str_dest + "&mode=driving&" + key;
     }
 
