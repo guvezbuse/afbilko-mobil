@@ -27,7 +27,7 @@ Afbilko, afet anlarında kullanıcılar arasında hızlı bilgi paylaşımı, ko
 
 📲 Uygulamayı Deneyimleyin (Demo)
 
-1- APK İndir: [📲 Afbilko APK dosyasını indirmek için buraya tıkla](APK/afbilko.apk)
+1- APK İndir: [📲 Afbilko APK dosyasını indirmek için buraya tıkla](https://github.com/guvezbuse/afbilko-mobil/raw/main/APK/afbilko.apk)
 2- Uygulamayı indirdikten sonra saniyeler içinde kendi hesabınızı oluşturabilir ve sistemi test etmeye başlayabilirsiniz.
 
 📸 Ekran Görüntüleri
