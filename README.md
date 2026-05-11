@@ -23,7 +23,7 @@ Afbilko, afet anlarında kullanıcılar arasında hızlı bilgi paylaşımı, ko
 - Kullanıcı Doğrulama: Firebase Authentication (Güvenli e-posta ve şifre tabanlı giriş sistemi).
 - Dosya Depolama: Firebase Storage (Kullanıcı profil fotoğrafları ve ihbar görsellerinin güvenli bir şekilde saklanması).
 - Mimari: Modüler Mobil Uygulama Mimarisi
-- Güvenlik Notu: Projenin güvenliği için hassas yapılandırma dosyaları (google-services.json) depodan hariç tutulmuştur. Uygulama, arka planda tarafımca yönetilen veritabanı ile çalışmaya devam etmektedir. Uygulama gerçek zamanlı veri akışı için Firebase veritabanını kullanmaktadır.
+- Güvenlik Notu: Projenin güvenliği için hassas yapılandırma dosyaları (google-services.json) depodan hariç tutulmuştur. Uygulama, arka planda tarafımca yönetilen veritabanı ile çalışmaya devam etmektedir. Uygulama, Cloud Firestore üzerinden sağlanan gerçek zamanlı veri senkronizasyonu ile çalışmaktadır.
 
 📲 Uygulamayı Deneyimleyin (Demo)
 
